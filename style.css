@@ -1,0 +1,214 @@
+@font-face {
+    font-family: "Uber Friends";
+    src: url("Uberfriends.otf");
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    /*background-color: #39401a;*/
+    background:linear-gradient(#39401a,#4e5727,#646e35,#77853a);
+}
+.fondo {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+.fondo img {
+    width: 100%;
+    height: 100%;
+    opacity: 0.3;
+
+}
+.contenedor-head {
+    position: fixed;
+    width: 100%;
+    display: flex;
+    background-color:  #f5a30b ;
+    z-index: 1;
+
+}
+
+.logo {
+    width: 250px;
+    height: 70px;
+}
+
+
+.carousel img{
+    margin-top: 6%;
+    width: 100%;
+    height: 300px;
+}
+
+nav li{
+    padding: 10px;
+    display: inline-block;
+}
+
+nav{
+    text-align: center;
+    background-color: #a73125 ;
+    border: solid 1px  #f5a30b;
+    border-radius: 5px;
+    width: 100%;
+    display: inline-block;
+    font-family: "Uber Friends",Arial, Helvetica, sans-serif;
+    font-size: 30px;
+
+}
+nav ul li a{
+    color: #0c0c0c;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    color: #f7f2f2;
+}
+
+
+.card{
+    display: inline-block;
+    /*background-color: #f4a40c;*/
+    position: relative;
+    border-radius: 10px 10px 1px 1px;
+    overflow: hidden;
+    width: 200px;
+    margin-left: 80px;
+
+}
+.card img{
+    width: 200px;
+    height: auto;
+}
+
+.card img:hover{
+    opacity: 0.5;
+}
+
+.card2{
+    /*display: inline-block;*/
+    border-radius: 5px;
+    background-color: #f5a30b;
+}
+
+h3{
+    text-align: center;
+    color: #a73125;
+    font-family: "Uber Friends",Arial, Helvetica, sans-serif;
+}
+
+
+.price{
+    text-align: center;
+    color: #f7f2f2;
+    border-top: 1px #39401a;
+    border-left: 1px #a73125;
+    border-right: 1px #a73125;
+    border-bottom: 1px #a73125;
+    border-style: solid;
+    background-color: #a73125;
+}
+.price:hover{
+
+    color: black;
+}
+
+.aa{
+    font-size: 20px;
+    color: #f7f2f2;
+    text-decoration: none;
+}
+
+.aa:hover{
+    font-size: 25px;
+    color: black;
+    text-decoration: none;
+}
+
+.redes .whatsapp-link{
+    margin-left: 3px;
+    display: block;
+    position: fixed;
+    margin-top: 40%;
+    z-index: 1;
+    color:  #f7f2f2;
+    text-decoration: none;
+}
+
+.redes2 .insta-link{
+    margin-left: 3px;
+    display: block;
+    position: fixed;
+    margin-top: 30%;
+    z-index: 1;
+    color:  #f7f2f2;
+    text-decoration: none;
+}
+.redes2 .insta-link:hover{
+    color: #a73125;
+
+}
+
+
+.redes i {
+    
+    display: block;
+    margin-bottom: 10px;
+}
+
+.redes .whatsapp-link:hover{
+    color: #f5a30b;
+
+}
+
+.redespie {
+    margin-left: 35%;
+    display: inline-block;
+    background-color: transparent;
+    
+}
+
+.redespie i {
+    display: inline-block;
+    align-items: start;
+    margin-left: 10px;
+}
+
+p{
+    margin-left: 40%;
+    font-family: "Uber Friends",Arial, Helvetica, sans-serif;
+}
+
+a{
+    color: #0c0c0c;
+}
+a:hover{
+    color: #a73125;
+}
+
+footer p {
+    text-align: center;
+    font-family: "Uber Friends";
+    color: #f2b707;
+}
+
+.rotate-animation {
+    animation-name: rotate;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+  }
+  
+  @keyframes rotate {
+    0% {
+      transform: rotate(0);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
